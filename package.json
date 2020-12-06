@@ -1,0 +1,22 @@
+{
+  "name": "ob-back",
+  "version": "1.0.0",
+  "description": "Open Banking Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Megahack-LINGER/ob-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Megahack-LINGER/ob-back/issues"
+  },
+  "homepage": "https://github.com/Megahack-LINGER/ob-back#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
