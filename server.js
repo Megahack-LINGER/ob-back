@@ -23,15 +23,15 @@ app.get('/acc', (req, res) => {
 })
 
 app.get('/acc/customers', (req, res) => {
-  res.send('API CISA 1.0')
+  res.json('[{"nome": "Leonardo Matayoshi", "bank":"OBIEBANK"},{"nome": "Jose Geraldo", "bank":"AUTBANK"}]')
 })
 
 app.get('/acc/customer', (req, res) => {
-  res.send('API CISA 1.0')
+  res.json('{"nome": "Leonardo Matayoshi", "bank":"OBIEBANK","ID": "LYM-001", "conta":"000203-020", "saldo": 10000}')
 })
 
 app.get('/acc/saldo', (req, res) => {
-  res.send('API CISA 1.0')
+  res.json('{"nome": "Leonardo Matayoshi", "conta":"000203-020", "saldo": 10000}')
 })
 
 
